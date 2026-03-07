@@ -2,7 +2,7 @@
 =========================================================================
                          DATA EXPLORATION
 =========================================================================
-Quick overview of the dataset structure, size, and data quality.
+Quick overview of the dataset structure, size, data quality and statistics.
 =========================================================================
 */
 
