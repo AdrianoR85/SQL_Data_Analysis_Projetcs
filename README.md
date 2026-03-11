@@ -13,4 +13,8 @@ I pretend to put all my projects in data analysis that I make in this repository
 
 **Steps:** 
 - [x] Data Cleaing:
-  -  [Price and COGS](./Retail_Sales/Data_Cleaning/fill_null_price_cogs_with_median.sql)
+  -  [Price and COGS Columns](./Retail_Sales/Data_Cleaning/fill_null_price_cogs_with_median.sql)
+  -  [Quantity Column](./Retail_Sales/Data_Cleaning/fill_null_quantity_with_median.sql)
+  -  [Total Sale Column](./Retail_Sales/Data_Cleaning/fill_null_quantity_with_median.sql)
+- [x] Data Exploration:
+  - [All Exploration Done](./Retail_Sales/Data_Exploration/data_exploration.sql)    
