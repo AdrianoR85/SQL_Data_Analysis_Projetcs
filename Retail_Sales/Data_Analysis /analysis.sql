@@ -34,3 +34,18 @@ SELECT
 FROM retail_sales
 GROUP BY age_group
 ORDER BY total_revenue DESC;
+
+
+-- Monthly purchase trend by gender
+SELECT 
+	EXTRACT('month' FROM sale_date) AS month,
+	gender,
+	COUNT(*) AS total_transaction,
+
+	-- Comparison with previous month
+	LAG(COUNT(*)) OVER (PARTITION BY gender ORDER BY EXTRACT('month' FROM sale_date)) AS prev_month_transactions,
+	ROUND(COUNT(*) - LAG(COUNT(*)) OVER (PARTITION BY gender ORDER BY EXTRACT('month' FROM sale_date)), 2) AS transactions_diff
+FROM retail_sales
+WHERE EXTRACT('year' FROM sale_date) = 2023
+GROUP BY EXTRACT('month' FROM sale_date), gender
+ORDER BY month, gender;
