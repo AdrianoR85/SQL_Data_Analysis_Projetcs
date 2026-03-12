@@ -11,6 +11,8 @@ I pretend to put all my projects in data analysis that I make in this repository
 
 **Resume:** This project demonstrates SQL skills commonly used by data analysts, applied to a retail sales dataset with 2,000 transactions. It covers the full analytical workflow: database setup, data cleaning (null imputation using median and recalculation), exploratory data analysis (EDA), and business-driven queries exploring customer behavior, revenue trends, and purchasing patterns by gender, age group, and product category.
 
+**Tools:** PostgreSQL, Cloud AI 
+
 **Steps:** 
 - [x] Data Cleaning:
   -  [Price and COGS Columns](./Retail_Sales/Data_Cleaning/fill_null_price_cogs_with_median.sql)
