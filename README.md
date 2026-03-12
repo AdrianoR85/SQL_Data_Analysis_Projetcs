@@ -19,4 +19,4 @@ I pretend to put all my projects in data analysis that I make in this repository
 - [x] Data Exploration:
   -  [All Exploration Done](./Retail_Sales/Data_Exploration/data_exploration.sql)    
 - [x] Data Analysis:
-  -  [Analysis](./Retail_Sales/Data_Analysis/analysis.sql)
+  -  [Customer Behavior](./Retail_Sales/Data_Analysis/analysis.sql)
