@@ -19,4 +19,5 @@ I pretend to put all my projects in data analysis that I make in this repository
 - [x] Data Exploration:
   -  [All Exploration Done](./Retail_Sales/Data_Exploration/data_exploration.sql)    
 - [x] Data Analysis:
-  -  [Customer Behavior](./Retail_Sales/Data_Analysis/analysis.sql)
+  -  [Customer Behavior - Script](./Retail_Sales/Data_Analysis/analysis.sql)
+  -  [Resume (PDF)](./Retail_Sales/Data_Analysis/customer_behavior.pdf)
