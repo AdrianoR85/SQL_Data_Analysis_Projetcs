@@ -17,4 +17,6 @@ I pretend to put all my projects in data analysis that I make in this repository
   -  [Quantity Column](./Retail_Sales/Data_Cleaning/fill_null_quantity_with_median.sql)
   -  [Total Sale Column](./Retail_Sales/Data_Cleaning/fill_null_quantity_with_median.sql)
 - [x] Data Exploration:
-  - [All Exploration Done](./Retail_Sales/Data_Exploration/data_exploration.sql)    
+  -  [All Exploration Done](./Retail_Sales/Data_Exploration/data_exploration.sql)    
+- [x] Data Analysis:
+  -  [Analysis](./Retail_Sales/Data_Analysis/analysis.sql)
